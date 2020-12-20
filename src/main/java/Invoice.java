@@ -9,7 +9,7 @@ public class Invoice {
     private String userId;
 
     @JsonProperty("pdf_url")
-    private  String pdfUrl;
+    private    String pdfUrl;
 
     private Integer amount;
 
