@@ -26,7 +26,6 @@ public class MyInvoiceServlet extends HttpServlet {
             response.setStatus(HttpServletResponse.SC_NOT_FOUND);
         }
     }
-
     @Override
     protected void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException {
         if (request.getRequestURI().equalsIgnoreCase("/")) {
@@ -39,7 +38,8 @@ public class MyInvoiceServlet extends HttpServlet {
                             "</body>\n" +
                             "</html>\n");
         }
-        else if (request.getRequestURI().equalsIgnoreCase("/invoices")){
+        else if (request.getRequestURI().equalsIgnoreCase("/invoices"))
+        {
             response.setContentType("application/json; charset=UTF-8");
             List<Invoice> invoices = invoiceService.findAll();
             response.getWriter().print(objectMapper.writeValueAsString(invoices));

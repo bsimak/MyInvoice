@@ -10,7 +10,7 @@ public class ApplicationLauncher {
         tomcat.getConnector();
 
         Context ctx = tomcat.addContext("", null);
-        Wrapper servlet = Tomcat.addServlet(ctx, "myInvoiceServlet", new MyInvoiceServlet());
+        Wrapper servlet = Tomcat.addServlet(ctx, "MyInvoiceServlet", new MyInvoiceServlet());
         servlet.setLoadOnStartup(1);
         servlet.addMapping("/*");
 
