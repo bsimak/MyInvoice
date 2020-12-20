@@ -22,6 +22,11 @@
             <artifactId>tomcat-embed-core</artifactId>
             <version>9.0.36</version>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.11.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -44,7 +49,7 @@
                     </archive>
                 </configuration>
             </plugin>
-
+            <!-- required tag:: shade to add external libraries to the jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
@@ -58,13 +63,15 @@
                         <configuration>
                            <transformers>
                               <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                <mainClass>org.example.ApplicationLauncher</mainClass>
+                                <mainClass>ApplicationLauncher</mainClass>
                               </transformer>
                             </transformers>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
+            <!-- end tag:: shade  -->
+
         </plugins>
     </build>
 </project>
