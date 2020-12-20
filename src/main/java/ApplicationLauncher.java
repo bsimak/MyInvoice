@@ -16,5 +16,4 @@ public class ApplicationLauncher {
 
         tomcat.start();
     }
-
 }

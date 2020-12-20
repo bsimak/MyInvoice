@@ -33,7 +33,7 @@ public class MyInvoiceServlet extends HttpServlet {
             response.getWriter().print(
                     "<html>\n" +
                             "<body>\n" +
-                            "<h1>Hello World</h1>\n" +
+                            "<h1>Hello Barbara</h1>\n" +
                             "<p>This is my first, embedded Tomcat HTML Page!</p>\n" +
                             "</body>\n" +
                             "</html>\n");
