@@ -8,8 +8,8 @@ import java.util.List;
 
 public class MyInvoiceServlet extends HttpServlet {
 
-    private InvoiceService invoiceService = new InvoiceService();
-    private ObjectMapper objectMapper = new ObjectMapper();
+    private final InvoiceService invoiceService = new InvoiceService();
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException{
@@ -42,7 +42,9 @@ public class MyInvoiceServlet extends HttpServlet {
         {
             response.setContentType("application/json; charset=UTF-8");
             List<Invoice> invoices = invoiceService.findAll();
+            // (2)
             response.getWriter().print(objectMapper.writeValueAsString(invoices));
+            // (3)
         }
     }
 }
