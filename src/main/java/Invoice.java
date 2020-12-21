@@ -1,4 +1,5 @@
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.UUID;
 
 public class Invoice {
@@ -21,6 +22,7 @@ public class Invoice {
         this.pdfUrl = pdfUrl;
         this.amount = amount;
     }
+
     public String getId() {
         return id;
     }

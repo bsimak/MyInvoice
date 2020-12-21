@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="UserId wird jetzt korrekt angezeigt">
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyInvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InvoiceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyInvoiceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyInvoiceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Invoice.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608513571011</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Change name back to InvoiceService (instead of MyInvoiceService)">
+      <created>1608566258645</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608566258645</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -267,7 +277,8 @@
     <MESSAGE value="Manifest File MANIFEST.MF" />
     <MESSAGE value="pom-File ohne Reporting Plugin" />
     <MESSAGE value="UserId wird jetzt korrekt angezeigt" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserId wird jetzt korrekt angezeigt" />
+    <MESSAGE value="Change name back to InvoiceService (instead of MyInvoiceService)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change name back to InvoiceService (instead of MyInvoiceService)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyInvoice$ApplicationLauncher.ic" NAME="ApplicationLauncher Coverage Results" MODIFIED="1608483626745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
