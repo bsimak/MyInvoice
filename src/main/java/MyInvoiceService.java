@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-public class InvoiceService {
+public class MyInvoiceService {
 
     List<Invoice> invoices = new CopyOnWriteArrayList<>(); // (1)
 
