@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608508627546</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Manifest File MANIFEST.MF">
+      <created>1608509429638</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608509429638</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -227,7 +234,8 @@
     <MESSAGE value="Change Port to 8083" />
     <MESSAGE value="Change Port back to 8080" />
     <MESSAGE value="Verschiedene Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Verschiedene Tests" />
+    <MESSAGE value="Manifest File MANIFEST.MF" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manifest File MANIFEST.MF" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyInvoice$ApplicationLauncher.ic" NAME="ApplicationLauncher Coverage Results" MODIFIED="1608483626745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
