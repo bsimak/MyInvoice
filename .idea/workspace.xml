@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyInvoiceService.java" afterDir="false" />
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="UserId wird jetzt korrekt angezeigt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyInvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InvoiceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyInvoiceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyInvoiceServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Invoice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InvoiceService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608513037491</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="UserId wird jetzt korrekt angezeigt">
+      <created>1608513571011</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608513571011</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">

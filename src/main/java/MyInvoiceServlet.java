@@ -8,7 +8,7 @@ import java.util.List;
 
 public class MyInvoiceServlet extends HttpServlet {
 
-    private MyInvoiceService invoiceService = new MyInvoiceService();
+    private InvoiceService invoiceService = new InvoiceService();
     private ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
@@ -16,7 +16,7 @@ public class MyInvoiceServlet extends HttpServlet {
         if (request.getRequestURI().equalsIgnoreCase("/invoices")) {
             String userId = request.getParameter("user_id");
             Integer amount = Integer.valueOf(request.getParameter("amount"));
-            Invoice invoice = new MyInvoiceService().create(userId, amount);
+            Invoice invoice = new InvoiceService().create(userId, amount);
 
             response.setContentType("application/json; charset=UTF-8");
             String json = new ObjectMapper().writeValueAsString(invoice);
