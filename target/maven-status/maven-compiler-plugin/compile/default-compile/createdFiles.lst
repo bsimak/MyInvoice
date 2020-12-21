@@ -1,4 +1,4 @@
-InvoiceService.class
-Invoice.class
-MyInvoiceServlet.class
-ApplicationLauncher.class
+org/example/model/Invoice.class
+org/example/web/MyInvoiceServlet.class
+org/example/ApplicationLauncher.class
+org/example/service/InvoiceService.class

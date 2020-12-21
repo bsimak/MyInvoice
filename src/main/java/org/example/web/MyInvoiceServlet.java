@@ -1,8 +1,8 @@
-package web;
+package org.example.web;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import model.Invoice;
-import service.InvoiceService;
+import org.example.model.Invoice;
+import org.example.service.InvoiceService;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -48,7 +48,7 @@ public class MyInvoiceServlet extends HttpServlet {
             response.setContentType("application/json; charset=UTF-8");
             List<Invoice> invoices = invoiceService.findAll();
 
-           // Debuuging Old:  System.out.println(objectMapper.writeValueAsString(invoices));
+           // Debugging Old:  System.out.println(objectMapper.writeValueAsString(invoices));
             // (2)
             response.getWriter().print(objectMapper.writeValueAsString(invoices));
             // (3)

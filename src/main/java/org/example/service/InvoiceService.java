@@ -1,6 +1,6 @@
-package service;
+package org.example.service;
 
-import model.Invoice;
+import org.example.model.Invoice;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -14,11 +14,11 @@ public class InvoiceService {
         // Debugging : System.out.println("in findAll");
         return invoices;
     }
-    Invoice create(String userId, Integer amount){
+    public Invoice create(String userId, Integer amount){
     //  TODO real pdf creation and storing it on network server
         Invoice invoice = new Invoice(userId,amount,"http://www.africau.edu/images/default/sample.pdf");
-        /** Debugging old style
-        System.out.print("Create model.Invoice: ");
+        /* Debugging old style
+        System.out.print("Create org.example.model.Invoice: ");
         System.out.println(invoice);
         */
         invoices.add(invoice);

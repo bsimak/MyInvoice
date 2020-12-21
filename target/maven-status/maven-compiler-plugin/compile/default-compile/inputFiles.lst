@@ -1,4 +1,4 @@
-/Users/barbara.simak/Documents/MyInvoice/src/main/java/Invoice.java
-/Users/barbara.simak/Documents/MyInvoice/src/main/java/MyInvoiceServlet.java
-/Users/barbara.simak/Documents/MyInvoice/src/main/java/InvoiceService.java
-/Users/barbara.simak/Documents/MyInvoice/src/main/java/ApplicationLauncher.java
+/Users/barbara.simak/Documents/MyInvoice/src/main/java/org/example/service/InvoiceService.java
+/Users/barbara.simak/Documents/MyInvoice/src/main/java/org/example/web/MyInvoiceServlet.java
+/Users/barbara.simak/Documents/MyInvoice/src/main/java/org/example/model/Invoice.java
+/Users/barbara.simak/Documents/MyInvoice/src/main/java/org/example/ApplicationLauncher.java
