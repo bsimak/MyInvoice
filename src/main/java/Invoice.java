@@ -1,5 +1,4 @@
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.UUID;
 
 public class Invoice {
@@ -22,25 +21,29 @@ public class Invoice {
         this.pdfUrl = pdfUrl;
         this.amount = amount;
     }
-    public String getId(){
+    public String getId() {
         return id;
     }
-    public void setId(String id){
+
+    public void setId(String id) {
         this.id = id;
     }
-    public String getUserId(){
+
+    public String getUserId() {
         return userId;
     }
-    public void setUserId(String userId){
+
+    public void setUserId(String userId) {
         this.userId = userId;
     }
+
     public String getPdfUrl(){
         return pdfUrl;
     }
     public void setPdfUrl(String pdfUrl){
         this.pdfUrl = pdfUrl;
     }
-    public Integer getAmount(){
+    public Integer getAmount() {
         return amount;
     }
     public void setAmount(Integer amount){

@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyInvoiceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyInvoiceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyInvoiceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyInvoiceServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608509827039</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="UserId wird jetzt korrekt angezeigt">
+      <created>1608511232098</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608511232098</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -245,7 +253,8 @@
     <MESSAGE value="Verschiedene Tests" />
     <MESSAGE value="Manifest File MANIFEST.MF" />
     <MESSAGE value="pom-File ohne Reporting Plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom-File ohne Reporting Plugin" />
+    <MESSAGE value="UserId wird jetzt korrekt angezeigt" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserId wird jetzt korrekt angezeigt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyInvoice$ApplicationLauncher.ic" NAME="ApplicationLauncher Coverage Results" MODIFIED="1608483626745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

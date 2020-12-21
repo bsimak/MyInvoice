@@ -3,8 +3,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 public class InvoiceService {
 
-    // (1)
-    List<Invoice> invoices = new CopyOnWriteArrayList<>();
+    List<Invoice> invoices = new CopyOnWriteArrayList<>(); // (1)
 
     public List<Invoice> findAll() {
         return invoices;
