@@ -14,7 +14,7 @@ public class MyInvoiceServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException{
         if (request.getRequestURI().equalsIgnoreCase("/invoices")) {
-            String userId = request.getParameter("user.id");
+            String userId = request.getParameter("user_id");
             Integer amount = Integer.valueOf(request.getParameter("amount"));
             Invoice invoice = new InvoiceService().create(userId, amount);
 
