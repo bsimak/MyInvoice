@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/context/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/context/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608593090190</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="User Service added">
+      <created>1608594157720</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608594157720</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -325,7 +334,8 @@
     <MESSAGE value="Fehler nach dem neuen Packaging gefixt" />
     <MESSAGE value="New Class Application added" />
     <MESSAGE value="irgendwas hatte nicht gestimmt" />
-    <option name="LAST_COMMIT_MESSAGE" value="irgendwas hatte nicht gestimmt" />
+    <MESSAGE value="User Service added" />
+    <option name="LAST_COMMIT_MESSAGE" value="User Service added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyInvoice$ApplicationLauncher.ic" NAME="ApplicationLauncher Coverage Results" MODIFIED="1608483626745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
