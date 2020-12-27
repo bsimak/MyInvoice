@@ -12,8 +12,9 @@ public class InvoiceService {
 
     private final UserService userService;
 
-    private List<Invoice> invoices = new CopyOnWriteArrayList<>(); // (1)
-
+    private final List<Invoice> invoices = new CopyOnWriteArrayList<>(); // (1)
+    
+    // in old Spring Versions or if more than one constructor: @Autowired required
     public InvoiceService(UserService userService) {
         this.userService = userService;
     }
