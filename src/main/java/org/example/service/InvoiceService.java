@@ -2,10 +2,12 @@ package org.example.service;
 
 import org.example.model.Invoice;
 import org.example.model.User;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+@Component
 public class InvoiceService {
 
     private final UserService userService;
