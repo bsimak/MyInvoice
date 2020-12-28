@@ -16,10 +16,12 @@ public class Invoice {
 
     private Integer amount;
 
+    private String myHello;
+
     public Invoice(){
     }
 
-    public Invoice(String userId, Integer amount, String pdfUrl){
+    public Invoice(String userId, Integer amount, String pdfUrl,String myHello) {
         this.id = UUID.randomUUID().toString();
         this.userId = userId;
         this.pdfUrl = pdfUrl;

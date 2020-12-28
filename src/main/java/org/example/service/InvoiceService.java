@@ -16,10 +16,13 @@ public class InvoiceService {
     private final UserService userService;
     private final List<Invoice> invoices = new CopyOnWriteArrayList<>(); // (1)
     private final String cdnUrl;
+    private final String myHello;
 
-    public InvoiceService(UserService userService, @Value("${cdn.url}") String cdnUrl) {
+    public InvoiceService(UserService userService, @Value("${cdn.url}") String cdnUrl, @Value("${my.hello}") String myHello) {
         this.userService = userService;
         this.cdnUrl = cdnUrl;
+        this.myHello =myHello;
+        System.out.println(this.myHello);
     }
     
     // in old Spring Versions or if more than one constructor: @Autowired required
@@ -54,7 +57,7 @@ public class InvoiceService {
     //  TODO real pdf creation and storing it on network server
        //  Invoice invoice = new Invoice(userId,amount,"http://www.africau.edu/images/default/sample.pdf");
 
-        Invoice invoice = new Invoice(userId,amount, cdnUrl+"/images/default/sample.pdf");
+        Invoice invoice = new Invoice(userId,amount, cdnUrl+"/images/default/sample.pdf", myHello);
         /* Debugging old style
         System.out.print("Create org.example.model.Invoice: ");
         System.out.println(invoice);

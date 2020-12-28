@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609159377166</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Using Resource and  Properties">
+      <created>1609164888089</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1609164888090</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -378,7 +385,8 @@
     <MESSAGE value="Erste Spring Version - Chapter 2/3" />
     <MESSAGE value="Learn about addsign Autowired" />
     <MESSAGE value="Using  @PostConstruct &amp;  @PreDestroy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using  @PostConstruct &amp;  @PreDestroy" />
+    <MESSAGE value="Using Resource and  Properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Resource and  Properties" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyInvoice$ApplicationLauncher.ic" NAME="ApplicationLauncher Coverage Results" MODIFIED="1608483626745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
