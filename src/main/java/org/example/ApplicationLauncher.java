@@ -7,9 +7,25 @@ import org.apache.catalina.startup.Tomcat;
 import org.example.web.MyInvoiceServlet;
 
 public class ApplicationLauncher {
+
+    static final int defPort = 8080;
+
+
     public static void main(String[] args) throws LifecycleException {
+        /** use this with java -Dport80xx -jar target/xy
+         if Port not provided as Parameter -> use default Port */
+
+        int port;
+        String sPort = (System.getProperty("port"));
+
+        if ((sPort == null) || (sPort.isEmpty())) {
+            port = defPort;
+        } else {
+            port = Integer.parseInt(System.getProperty("port"));
+        }
         Tomcat tomcat = new Tomcat();
-        tomcat.setPort(8080);
+
+        tomcat.setPort(port);
         tomcat.getConnector();
 
         Context ctx = tomcat.addContext("", null);
@@ -18,6 +34,7 @@ public class ApplicationLauncher {
         servlet.addMapping("/*");
 
         tomcat.start();
-        System.out.println("Tomcat started");
+        System.out.println("Tomcat started.....");
+        System.out.println("Listen at Port: " + port);
     }
 }
