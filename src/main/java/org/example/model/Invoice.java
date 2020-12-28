@@ -15,7 +15,7 @@ public class Invoice {
     private    String pdfUrl;
 
     private Integer amount;
-
+    // ist nur als Test hinzugefügt worden
     private String myHello;
 
     public Invoice(){
@@ -26,6 +26,7 @@ public class Invoice {
         this.userId = userId;
         this.pdfUrl = pdfUrl;
         this.amount = amount;
+        this.myHello = myHello;
     }
 
     public String getId() {
@@ -54,5 +55,10 @@ public class Invoice {
     }
     public void setAmount(Integer amount){
         this.amount = amount;
+    }
+
+    public String getMyHello() { return myHello; }
+    public void setMyHello(String myHello){
+        this.myHello = myHello;
     }
 }

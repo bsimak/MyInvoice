@@ -10,8 +10,11 @@ import org.springframework.context.annotation.*;
 
 @Configuration
 @ComponentScan(basePackageClasses = ApplicationLauncher.class)
+// Reihenfolge ist wichtid (overwrite) & falls File nicht vorhanden ignore
 @PropertySource("classpath:/application.properties")
-//@PropertySource ("classpath:/someOtherFile.properties")
+@PropertySource(value="classpath:/application-${spring.profiles.active}.properties"
+    , ignoreResourceNotFound = true)
+
 public class ApplicationConfiguration {
 
     @Bean

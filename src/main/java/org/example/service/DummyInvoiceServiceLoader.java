@@ -7,8 +7,11 @@ import javax.annotation.PostConstruct;
 
 @Service
 @Profile("dev")
+
+// This needs to run with following command: java -Dspring.profiles.active=dev -jar target/MyI*
 public class DummyInvoiceServiceLoader {
     private final InvoiceService invoiceService;
+
     public DummyInvoiceServiceLoader(InvoiceService invoiceService) {
         this.invoiceService = invoiceService;
     }
@@ -16,7 +19,7 @@ public class DummyInvoiceServiceLoader {
     @PostConstruct
     public void setup() {
         System.out.println("Creating dev Invoices...");
-        invoiceService.create("Sibylle", 50);
-        invoiceService.create("Barbara", 20);
+        invoiceService.create("Sibylle", 50, "Hello, my Dear");
+        invoiceService.create("Barbara", 20, "Hello, my Dear");
     }
 }
