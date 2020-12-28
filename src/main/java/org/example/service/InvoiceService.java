@@ -4,6 +4,8 @@ import org.example.model.Invoice;
 import org.example.model.User;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -11,13 +13,25 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class InvoiceService {
 
     private final UserService userService;
-
     private final List<Invoice> invoices = new CopyOnWriteArrayList<>(); // (1)
     
     // in old Spring Versions or if more than one constructor: @Autowired required
     public InvoiceService(UserService userService) {
+        System.out.println("Initialisierung Konstruktor InvoiceService");
         this.userService = userService;
     }
+
+    @PostConstruct
+    public void init() {
+        System.out.println("Fetch PDF Template from S3...");
+        // TODO download from s3 and save locally
+    }
+    @PreDestroy
+    // works only when application is really shutdown
+    public void shutdown(){
+        System.out.println("Deleting downloaded template");
+    }
+    // -------- Start of the methods --------
 
     public List<Invoice> findAll() {
         // Debugging : System.out.println("in findAll");

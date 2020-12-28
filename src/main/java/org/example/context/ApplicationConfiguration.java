@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 @ComponentScan(basePackageClasses = ApplicationLauncher.class)
 public class ApplicationConfiguration {
+
     @Bean
     public ObjectMapper objectMapper(){
         return new ObjectMapper();

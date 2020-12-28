@@ -24,6 +24,10 @@ public class MyInvoiceServlet extends HttpServlet {
     public void init() throws ServletException{
         AnnotationConfigApplicationContext ctx
                 = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
+
+        // is only needed that @PreDestroy works properly with IDE
+        ctx.registerShutdownHook();
+
         this.userService = ctx.getBean(UserService.class);
         this.objectMapper = ctx.getBean(ObjectMapper.class);
         this.invoiceService = ctx.getBean(InvoiceService.class);
