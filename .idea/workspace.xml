@@ -4,19 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/model/InvoiceTest.java" afterDir="false" />
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="End of Module Spring IoC Basic">
+      <change afterPath="$PROJECT_DIR$/MyInvoiceApp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyInvoiceClass.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyInvoiceClass.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MyInvoice-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/ApplicationLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/context/ApplicationConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/model/Invoice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/service/DummyInvoiceServiceLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/service/InvoiceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/web/MyInvoiceServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/original-MyInvoice-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.model.InvoiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.model.InvoiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/model/InvoiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/DummyInvoiceServiceLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/DummyInvoiceServiceLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/InvoiceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/MyInvoiceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/MyInvoiceServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +70,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -99,6 +112,17 @@
       <option name="MAIN_CLASS_NAME" value="org.example.ApplicationLauncher" />
       <module name="MyInvoice" />
       <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,6 +209,12 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+    <option name="showDoc" value="false" />
+    <option name="showGraph" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="" />
@@ -192,6 +222,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608412489707</updated>
+      <workItem from="1609279121527" duration="766000" />
     </task>
     <task id="LOCAL-00001" summary="Finally it is working - Hello World">
       <created>1608413804652</created>
@@ -424,11 +455,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609175949486</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Profile eingerichtet: resources/application.properties &amp; application-dev.properties">
+      <created>1609189816855</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1609189816855</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
     <option name="startingDirectory" value="$USER_HOME$" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -444,8 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Add maven-shade-plugin to pom" />
-    <MESSAGE value="Servlet with json Invoice" />
     <MESSAGE value="Servlet with json Invoice - Test again" />
     <MESSAGE value="no change but several tests" />
     <MESSAGE value="Change Port to 8083" />
@@ -469,7 +508,9 @@
     <MESSAGE value="Using Resource and  Properties" />
     <MESSAGE value="Add my.hello in application.properties file" />
     <MESSAGE value="Variabler Port: java -Dport80xx -jar target/xy&#10;or Default Port 8080" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variabler Port: java -Dport80xx -jar target/xy&#10;or Default Port 8080" />
+    <MESSAGE value="Profile eingerichtet: resources/application.properties &amp; application-dev.properties" />
+    <MESSAGE value="End of Module Spring IoC Basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of Module Spring IoC Basic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -482,7 +523,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyInvoice$ApplicationLauncher.ic" NAME="ApplicationLauncher Coverage Results" MODIFIED="1609189995928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/MyInvoice$All_in_MyInvoice.ic" NAME="All in MyInvoice Coverage Results" MODIFIED="1609181488234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/MyInvoice$ApplicationLauncher.ic" NAME="ApplicationLauncher Coverage Results" MODIFIED="1609186514914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
