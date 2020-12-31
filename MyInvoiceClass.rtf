@@ -175,16 +175,8 @@ rService \{\
         \cf0 System\cf7 .
 \f5\i \cf13 out
 \f3\i0 \cf7 .println(\cf6 this\cf7 .\cf13 myMsg\cf7 );\
-    \}\
-    \
-    
-\f5\i \cf9 // in old Spring Versions or if more than one constructor: @Autowired required\
-    /**\
-    public InvoiceService(UserService userService) \{\
-        System.out.println("Initialisierung Konstruktor InvoiceService");\
-        this.userService = userService;\
-    \}\
-    */\
+    \}
+\f5\i \cf9 \
 \
     
 \f3\i0 \cf8 @PostConstruct\
@@ -221,16 +213,12 @@ rService \{\
             \cf6 throw new \cf7 IllegalStateException();\
         \}\
     
-\f5\i \cf9 //  \cf14 TODO real pdf creation and storing it on network server\
-       \cf9 //  Invoice invoice = new Invoice(userId,amount,"http://www.africau.edu/images/default/sample.pdf");\
+\f5\i \cf9 //  \cf14 TODO real pdf creation and storing it on network server\cf9 \
 \
         
 \f3\i0 \cf7 Invoice \cf0 invoice \cf7 = \cf6 new \cf7 Invoice(userId,amount, \cf13 cdnUrl\cf7 +\cf10 "/images/default/sample.pdf"\cf7 , myMsg);\
-        
-\f5\i \cf9 /* Debugging old style\
-        System.out.print("Create org.example.model.Invoice: ");\
-        System.out.println(invoice);\
-        */\
+
+\f5\i \cf9 \
         
 \f3\i0 \cf13 invoices\cf7 .add(\cf0 invoice\cf7 );\
         \cf6 return \cf0 invoice\cf7 ;\
@@ -353,6 +341,9 @@ rService \{\
 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 \cf0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+
+\f2\b\fs28 \cf5 \ul \ulc5 MyInvoiceServlet
+\f3\b0\fs26 \cf0 \ulnone \
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf6 package \cf0 org.example.web\cf7 ;\
@@ -449,6 +440,9 @@ rService \{\
 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 \cf0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\
+
+\f2\b\fs28 \cf5 \ul \ulc5 ApplicationLauncher
+\f3\b0\fs26 \cf0 \ulnone \
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf6 package \cf0 org.example\cf7 ;\
