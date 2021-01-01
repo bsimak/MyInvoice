@@ -4,29 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="End of Module Spring IoC Basic">
-      <change afterPath="$PROJECT_DIR$/MyInvoiceApp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyInvoiceClass.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyInvoiceClass.rtf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/MyInvoice-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/ApplicationLauncher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/context/ApplicationConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/model/Invoice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/service/DummyInvoiceServiceLoader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/service/InvoiceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/web/MyInvoiceServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/original-MyInvoice-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.model.InvoiceTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.model.InvoiceTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/model/InvoiceTest.class" afterDir="false" />
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="Only Recompiles - Pom - update">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyInvoiceSourceCode.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyInvoiceSpringDia.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MyInvoice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MyInvoice-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/Invoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-MyInvoice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-MyInvoice-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.model.InvoiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.model.InvoiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.model.InvoiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.model.InvoiceTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +42,22 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.36/tomcat-embed-core-9.0.36-sources.jar!/javax/servlet/http/HttpServlet.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ltNa7by28pYcXa3In6suGrDQiH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -76,7 +71,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -112,17 +107,6 @@
       <option name="MAIN_CLASS_NAME" value="org.example.ApplicationLauncher" />
       <module name="MyInvoice" />
       <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,7 +206,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608412489707</updated>
-      <workItem from="1609279121527" duration="766000" />
+      <workItem from="1609279121527" duration="1279000" />
+      <workItem from="1609372994110" duration="1868000" />
+      <workItem from="1609534739671" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="Finally it is working - Hello World">
       <created>1608413804652</created>
@@ -462,7 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609189816855</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Only Recompiles">
+      <created>1609280223563</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1609280223563</updated>
+    </task>
+    <task id="LOCAL-00036" summary="New IDE - change to commercial IDE">
+      <created>1609373173375</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1609373173375</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -485,9 +485,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Servlet with json Invoice - Test again" />
-    <MESSAGE value="no change but several tests" />
-    <MESSAGE value="Change Port to 8083" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Change Port back to 8080" />
     <MESSAGE value="Verschiedene Tests" />
     <MESSAGE value="Manifest File MANIFEST.MF" />
@@ -510,7 +508,10 @@
     <MESSAGE value="Variabler Port: java -Dport80xx -jar target/xy&#10;or Default Port 8080" />
     <MESSAGE value="Profile eingerichtet: resources/application.properties &amp; application-dev.properties" />
     <MESSAGE value="End of Module Spring IoC Basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of Module Spring IoC Basic" />
+    <MESSAGE value="Only Recompiles" />
+    <MESSAGE value="Only Recompiles - Pom - update" />
+    <MESSAGE value="New IDE - change to commercial IDE" />
+    <option name="LAST_COMMIT_MESSAGE" value="New IDE - change to commercial IDE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

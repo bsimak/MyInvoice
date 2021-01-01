@@ -1,8 +1,0 @@
-org/example/web/MyInvoiceServlet.class
-org/example/service/InvoiceService.class
-org/example/model/Invoice.class
-org/example/service/DummyInvoiceServiceLoader.class
-org/example/service/UserService.class
-org/example/context/ApplicationConfiguration.class
-org/example/ApplicationLauncher.class
-org/example/model/User.class
