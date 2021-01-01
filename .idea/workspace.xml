@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="Only Recompiles - Pom - update">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyInvoiceSourceCode.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyInvoiceSpringDia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MyInvoice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MyInvoice-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/Invoice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-MyInvoice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-MyInvoice-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.model.InvoiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.model.InvoiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.model.InvoiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.model.InvoiceTest.txt" afterDir="false" />
-    </list>
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="add .gitignore File and remove target directory from Github" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +196,7 @@
       <updated>1608412489707</updated>
       <workItem from="1609279121527" duration="1279000" />
       <workItem from="1609372994110" duration="1868000" />
-      <workItem from="1609534739671" duration="388000" />
+      <workItem from="1609534739671" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="Finally it is working - Hello World">
       <created>1608413804652</created>
@@ -462,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609373173375</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add .gitignore File and remove target directory from Github">
+      <created>1609535442449</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1609535442449</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -486,7 +481,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change Port back to 8080" />
     <MESSAGE value="Verschiedene Tests" />
     <MESSAGE value="Manifest File MANIFEST.MF" />
     <MESSAGE value="pom-File ohne Reporting Plugin" />
@@ -511,7 +505,8 @@
     <MESSAGE value="Only Recompiles" />
     <MESSAGE value="Only Recompiles - Pom - update" />
     <MESSAGE value="New IDE - change to commercial IDE" />
-    <option name="LAST_COMMIT_MESSAGE" value="New IDE - change to commercial IDE" />
+    <MESSAGE value="add .gitignore File and remove target directory from Github" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore File and remove target directory from Github" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
