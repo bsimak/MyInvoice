@@ -16,7 +16,7 @@ public class ApplicationLauncher {
     static final int defPort = 8080;
 
     public static void main(String[] args) throws LifecycleException {
-        /** use this with java -Dport80xx -jar target/xy
+        /* use this with java -Dport80xx -jar target/xy
          if Port not provided as Parameter -> use default Port */
 
         int port;

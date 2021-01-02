@@ -22,10 +22,18 @@ public class MyInvoiceController {
         return invoiceService.findAll();
     }
 
+    /* Request Mapping Version
    @RequestMapping(value="/invoices", method = RequestMethod.POST)
     public Invoice createInvoice(@RequestParam("user_id") String userId,
                                  @RequestParam Integer amount,
                                  @RequestParam String myMsg) {
+        return invoiceService.create(userId,amount,myMsg);
+    }
+     */
+    @PostMapping("/invoices/{userId}/{amount}/{myMsg}")
+    public Invoice createInvoice(@PathVariable String userId,
+                                 @PathVariable Integer amount,
+                                 @PathVariable String myMsg) {
         return invoiceService.create(userId,amount,myMsg);
     }
 }
