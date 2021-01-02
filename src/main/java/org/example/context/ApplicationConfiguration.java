@@ -10,7 +10,9 @@ import org.springframework.context.annotation.*;
 
 @Configuration
 @ComponentScan(basePackageClasses = ApplicationLauncher.class)
-// Reihenfolge ist wichtid (overwrite) & falls File nicht vorhanden ignore
+
+// Injection of Property-Fields in a property file
+// Reihenfolge ist wichtig (overwrite) & falls File nicht vorhanden ignore
 @PropertySource("classpath:/application.properties")
 @PropertySource(value="classpath:/application-${spring.profiles.active}.properties"
     , ignoreResourceNotFound = true)

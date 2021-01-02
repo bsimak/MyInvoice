@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="add .gitignore File and remove target directory from Github" />
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="check, if .gitignore works correctly">
+      <change afterPath="$PROJECT_DIR$/MySpringInvoice.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +19,12 @@
   </component>
   <component name="DependenciesAnalyzeManager">
     <option name="forwardDirection" value="false" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="PRINT_LINE_NUMBERS" value="true" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,6 +105,17 @@
       <option name="MAIN_CLASS_NAME" value="org.example.ApplicationLauncher" />
       <module name="MyInvoice" />
       <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,7 +217,8 @@
       <updated>1608412489707</updated>
       <workItem from="1609279121527" duration="1279000" />
       <workItem from="1609372994110" duration="1868000" />
-      <workItem from="1609534739671" duration="695000" />
+      <workItem from="1609534739671" duration="916000" />
+      <workItem from="1609536125975" duration="3765000" />
     </task>
     <task id="LOCAL-00001" summary="Finally it is working - Hello World">
       <created>1608413804652</created>
@@ -457,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609535442449</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="check, if .gitignore works correctly">
+      <created>1609535563232</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1609535563232</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -481,7 +510,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Verschiedene Tests" />
     <MESSAGE value="Manifest File MANIFEST.MF" />
     <MESSAGE value="pom-File ohne Reporting Plugin" />
     <MESSAGE value="UserId wird jetzt korrekt angezeigt" />
@@ -506,7 +534,8 @@
     <MESSAGE value="Only Recompiles - Pom - update" />
     <MESSAGE value="New IDE - change to commercial IDE" />
     <MESSAGE value="add .gitignore File and remove target directory from Github" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore File and remove target directory from Github" />
+    <MESSAGE value="check, if .gitignore works correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="check, if .gitignore works correctly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
