@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="POST Controller ready">
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="POST with @PathVariables instead og @RequestParam">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/InvoiceDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ApplicationLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ApplicationLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/MyInvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/MyInvoiceController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +220,7 @@
       <workItem from="1609372994110" duration="1868000" />
       <workItem from="1609534739671" duration="916000" />
       <workItem from="1609536125975" duration="8631000" />
-      <workItem from="1609603421235" duration="10678000" />
+      <workItem from="1609603421235" duration="12292000" />
     </task>
     <task id="LOCAL-00001" summary="Finally it is working - Hello World">
       <created>1608413804652</created>
@@ -517,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609615508169</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="POST with @PathVariables instead og @RequestParam">
+      <created>1609622678688</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1609622678688</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -541,7 +547,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change name back to InvoiceService (instead of MyInvoiceService)" />
     <MESSAGE value="Finale Version: Full REST Service" />
     <MESSAGE value="Package Refactoring" />
     <MESSAGE value="Fehler nach dem neuen Packaging gefixt" />
@@ -566,7 +571,8 @@
     <MESSAGE value="Kommentare ergänzt" />
     <MESSAGE value="GET Controller ready" />
     <MESSAGE value="POST Controller ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="POST Controller ready" />
+    <MESSAGE value="POST with @PathVariables instead og @RequestParam" />
+    <option name="LAST_COMMIT_MESSAGE" value="POST with @PathVariables instead og @RequestParam" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

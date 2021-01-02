@@ -30,10 +30,17 @@ public class MyInvoiceController {
         return invoiceService.create(userId,amount,myMsg);
     }
      */
+    /*
     @PostMapping("/invoices/{userId}/{amount}/{myMsg}")
     public Invoice createInvoice(@PathVariable String userId,
                                  @PathVariable Integer amount,
                                  @PathVariable String myMsg) {
         return invoiceService.create(userId,amount,myMsg);
+    }
+     */
+    @PostMapping("invoices")
+    public Invoice createInvoice(@RequestBody InvoiceDTO invoiceDTO) {
+        return invoiceService.create(invoiceDTO.getUserId(),
+                invoiceDTO.getAmount(), invoiceDTO.getMyHello());
     }
 }
