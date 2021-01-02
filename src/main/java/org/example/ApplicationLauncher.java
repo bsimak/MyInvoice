@@ -11,12 +11,9 @@ import org.springframework.web.servlet.DispatcherServlet;
 
 import javax.servlet.ServletContext;
 
-//import org.example.web.MyInvoiceServlet;
-
 public class ApplicationLauncher {
 
     static final int defPort = 8080;
-
 
     public static void main(String[] args) throws LifecycleException {
         /** use this with java -Dport80xx -jar target/xy

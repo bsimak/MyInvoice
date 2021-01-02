@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="Kommentare ergänzt">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OldApplicationLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/MyInvoiceController.java" afterDir="false" />
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="GET Controller ready">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ApplicationLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ApplicationLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OldApplicationLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OldAppLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/MyInvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/MyInvoiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -102,21 +107,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.ApplicationLauncher">
-    <configuration name="ApplicationLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationLauncher" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.ApplicationLauncher" />
       <module name="MyInvoice" />
-      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,7 +201,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApplicationLauncher" />
         <item itemvalue="JUnit.InvoiceTest.setAmount (1)" />
         <item itemvalue="JUnit.InvoiceTest.setAmount" />
         <item itemvalue="JUnit.All in MyInvoice" />
@@ -219,7 +224,8 @@
       <workItem from="1609279121527" duration="1279000" />
       <workItem from="1609372994110" duration="1868000" />
       <workItem from="1609534739671" duration="916000" />
-      <workItem from="1609536125975" duration="7779000" />
+      <workItem from="1609536125975" duration="8631000" />
+      <workItem from="1609603421235" duration="7701000" />
     </task>
     <task id="LOCAL-00001" summary="Finally it is working - Hello World">
       <created>1608413804652</created>
@@ -501,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609546620083</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="GET Controller ready">
+      <created>1609550922361</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1609550922361</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -525,7 +538,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="pom-File ohne Reporting Plugin" />
     <MESSAGE value="UserId wird jetzt korrekt angezeigt" />
     <MESSAGE value="Change name back to InvoiceService (instead of MyInvoiceService)" />
     <MESSAGE value="Finale Version: Full REST Service" />
@@ -550,7 +562,8 @@
     <MESSAGE value="add .gitignore File and remove target directory from Github" />
     <MESSAGE value="check, if .gitignore works correctly" />
     <MESSAGE value="Kommentare ergänzt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kommentare ergänzt" />
+    <MESSAGE value="GET Controller ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="GET Controller ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

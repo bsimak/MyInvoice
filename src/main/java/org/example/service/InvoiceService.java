@@ -14,24 +14,16 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class InvoiceService {
 
     private final UserService userService;
-    private final List<Invoice> invoices = new CopyOnWriteArrayList<>(); // (1)
+    private final List<Invoice> invoices = new CopyOnWriteArrayList<>();
     private final String cdnUrl;
     private final String myMsg;
 
     public InvoiceService(UserService userService, @Value("${cdn.url}") String cdnUrl, @Value("${my.hello}") String myMsg) {
         this.userService = userService;
         this.cdnUrl = cdnUrl;
-        this.myMsg =myMsg;
+        this.myMsg = myMsg;
         System.out.println(this.myMsg);
     }
-    
-    // in old Spring Versions or if more than one constructor: @Autowired required
-    /**
-    public InvoiceService(UserService userService) {
-        System.out.println("Initialisierung Konstruktor InvoiceService");
-        this.userService = userService;
-    }
-    */
 
     @PostConstruct
     public void init() {

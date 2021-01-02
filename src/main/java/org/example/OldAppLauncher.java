@@ -6,10 +6,9 @@ import org.apache.catalina.Wrapper;
 import org.apache.catalina.startup.Tomcat;
 import org.example.web.MyInvoiceServlet;
 
-public class OldApplicationLauncher {
+public class OldAppLauncher {
 
     static final int defPort = 8080;
-
 
     public static void main(String[] args) throws LifecycleException {
         /** use this with java -Dport80xx -jar target/xy
