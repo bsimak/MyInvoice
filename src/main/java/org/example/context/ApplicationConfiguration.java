@@ -5,16 +5,16 @@ import org.example.ApplicationLauncher;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.*;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
 @ComponentScan(basePackageClasses = ApplicationLauncher.class)
-
 // Injection of Property-Fields in a property file
 // Reihenfolge ist wichtig (overwrite) & falls File nicht vorhanden ignore
 @PropertySource("classpath:/application.properties")
 @PropertySource(value="classpath:/application-${spring.profiles.active}.properties"
     , ignoreResourceNotFound = true)
-
+@EnableWebMvc
 public class ApplicationConfiguration {
 
     @Bean
