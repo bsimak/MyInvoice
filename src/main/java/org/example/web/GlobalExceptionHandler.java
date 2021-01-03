@@ -13,19 +13,19 @@ import javax.validation.ConstraintViolationException;
 // alternative: @ControllerAdvice that will write HTML
 
 @RestControllerAdvice
-public class GlobalControllerExecptionHandler {
+public class GlobalExceptionHandler {
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public String handlemethodArgumentNotValid(MethodArgumentNotValidException exception) {
         //TODO choose to return custome object here - transformed to json/xml
-        return "Sorry, Bad Requests" + exception.getMessage();
+        return "Sorry, Bad Requests " + exception.getMessage();
     }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(ConstraintViolationException.class)
     public String handleConstraintViolation(ConstraintViolationException exception) {
         //TODO choose to return custome object here - transformed to json/xml
-        return "Sorry, please enter correct values" + exception.getMessage();
+        return "Sorry, please enter correct values " + exception.getMessage();
     }
 }

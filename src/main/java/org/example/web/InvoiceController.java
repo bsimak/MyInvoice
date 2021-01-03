@@ -12,11 +12,11 @@ import java.util.List;
 
 @RestController
 @Validated
-public class MyInvoiceController {
+public class InvoiceController {
 
     private final InvoiceService invoiceService;
 
-    public MyInvoiceController (InvoiceService invoiceService) {
+    public InvoiceController(InvoiceService invoiceService) {
         this.invoiceService = invoiceService;
     }
     // GET Method
