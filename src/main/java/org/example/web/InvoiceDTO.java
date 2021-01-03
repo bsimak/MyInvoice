@@ -5,8 +5,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class InvoiceDTO
 {
     @JsonProperty("user_id")
+    // @NotBlank -
     private String userId;
+
+    // @Min(10)
+    // @Max(100)
     private Integer amount;
+
+    @JsonProperty("my_msg")
     private String myHello;
 
     public String getUserId() {

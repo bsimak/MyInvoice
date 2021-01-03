@@ -14,6 +14,7 @@ public class Invoice {
 
     private Integer amount;
     // ist nur als Test hinzugefügt worden
+    @JsonProperty("my_hello")
     private String myHello;
 
     public Invoice(){

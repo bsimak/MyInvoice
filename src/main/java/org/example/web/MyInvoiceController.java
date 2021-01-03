@@ -2,12 +2,16 @@ package org.example.web;
 
 import org.example.model.Invoice;
 import org.example.service.InvoiceService;
-
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import java.util.List;
 
 @RestController
+@Validated
 public class MyInvoiceController {
 
     private final InvoiceService invoiceService;
@@ -39,9 +43,18 @@ public class MyInvoiceController {
     }
      */
     // Ergebnisse aus dem RequestBody werden als Parameter übergeben
+    /*
     @PostMapping("invoices")
-    public Invoice createInvoice(@RequestBody InvoiceDTO invoiceDTO) {
+    public Invoice createInvoice(@RequestBody @Valid InvoiceDTO invoiceDTO) {
         return invoiceService.create(invoiceDTO.getUserId(),
                 invoiceDTO.getAmount(), invoiceDTO.getMyHello());
+    }
+    */
+    // Mit validation Bean in ApplicationLauncher Class
+    @PostMapping("invoices")
+    public Invoice createInvoice(@RequestParam("user_id") @NotBlank String userId,
+                                 @RequestParam @Min(10) @Max(100) Integer amount,
+                                 @RequestParam ("my_msg") String myMsg) {
+        return invoiceService.create(userId, amount ,myMsg);
     }
 }
