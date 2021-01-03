@@ -13,15 +13,15 @@ public class MyInvoiceController {
     private final InvoiceService invoiceService;
 
     public MyInvoiceController (InvoiceService invoiceService) {
-
         this.invoiceService = invoiceService;
     }
-
+    // GET Method
     @RequestMapping(value="/invoices", method = RequestMethod.GET)
     public List<Invoice> invoices() {
         return invoiceService.findAll();
     }
 
+    // POST Method
     /* Request Mapping Version
    @RequestMapping(value="/invoices", method = RequestMethod.POST)
     public Invoice createInvoice(@RequestParam("user_id") String userId,
@@ -38,6 +38,7 @@ public class MyInvoiceController {
         return invoiceService.create(userId,amount,myMsg);
     }
      */
+    // Ergebnisse aus dem RequestBody werden als Parameter übergeben
     @PostMapping("invoices")
     public Invoice createInvoice(@RequestBody InvoiceDTO invoiceDTO) {
         return invoiceService.create(invoiceDTO.getUserId(),

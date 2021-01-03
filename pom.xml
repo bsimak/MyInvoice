@@ -23,10 +23,18 @@
             <artifactId>tomcat-embed-core</artifactId>
             <version>9.0.36</version>
         </dependency>
+        <!-- nur Json Format
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.11.3</version>
+        </dependency>
+        -->
+        <!-- für XML und Json Format -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>2.12.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>

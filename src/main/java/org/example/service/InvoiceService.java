@@ -24,7 +24,6 @@ public class InvoiceService {
         this.myMsg = myMsg;
         System.out.println(this.myMsg);
     }
-
     @PostConstruct
     public void init() {
         System.out.println("Fetch PDF Template from S3...");
@@ -35,8 +34,8 @@ public class InvoiceService {
     public void shutdown(){
         System.out.println("Deleting downloaded template");
     }
-    // -------- Start of the methods --------
 
+    // -------- Start of the methods --------
     public List<Invoice> findAll() {
         // Debugging : System.out.println("in findAll");
         return invoices;
@@ -47,13 +46,8 @@ public class InvoiceService {
             throw new IllegalStateException();
         }
     //  TODO real pdf creation and storing it on network server
-       //  Invoice invoice = new Invoice(userId,amount,"http://www.africau.edu/images/default/sample.pdf");
-
         Invoice invoice = new Invoice(userId,amount, cdnUrl+"/images/default/sample.pdf", myMsg);
-        /* Debugging old style
-        System.out.print("Create org.example.model.Invoice: ");
-        System.out.println(invoice);
-        */
+
         invoices.add(invoice);
         return invoice;
     }
