@@ -31,13 +31,15 @@ public class ApplicationConfiguration {
     public ObjectMapper objectMapper(){
         return new ObjectMapper();
     }
-
     @Bean
     public ThymeleafViewResolver viewResolver() {
         ThymeleafViewResolver viewResolver = new ThymeleafViewResolver();
         viewResolver.setTemplateEngine(templateEngine());
+      /*
         viewResolver.setOrder(1);
-        viewResolver.setViewNames(new String[] {".html", "*.xhtml"});
+        viewResolver.setViewNames(new String[] {"*.html", "*.xhtml"});
+
+       */
         return viewResolver;
     }
     @Bean
@@ -49,7 +51,7 @@ public class ApplicationConfiguration {
     @Bean
     public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
-        templateResolver.setPrefix("classpath:/templates");
+        templateResolver.setPrefix("classpath:/templates/");
         templateResolver.setCacheable(false); // phase dev: false, prod: true
         return templateResolver;
     }

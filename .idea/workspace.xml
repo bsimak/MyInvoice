@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="error on invoice.controller: @PostMapping(&quot;/invoices&quot;) -&gt; missing slash /">
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="First Thymeleaf Template added but website not yet working">
       <change afterPath="$PROJECT_DIR$/MyInvoiceSpringMVC-03.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/InvoiceControllerRESTonly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/WebsiteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ApplicationLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ApplicationLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/InvoiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/WebsiteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/WebsiteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in MyInvoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyInvoice" />
       <option name="PACKAGE_NAME" value="" />
@@ -217,8 +200,8 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringBeansView">
-    <option name="showInfrastructureBeans" value="false" />
-    <option name="showDoc" value="false" />
+    <option name="showFilesets" value="false" />
+    <option name="showFiles" value="false" />
     <option name="showGraph" value="false" />
   </component>
   <component name="TaskManager">
@@ -234,14 +217,8 @@
       <workItem from="1609536125975" duration="8631000" />
       <workItem from="1609603421235" duration="15999000" />
       <workItem from="1609683898042" duration="11735000" />
-      <workItem from="1610203613463" duration="10688000" />
-    </task>
-    <task id="LOCAL-00002" summary="Update pom file (manifest)">
-      <created>1608414809357</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1608414809357</updated>
+      <workItem from="1610203613463" duration="11023000" />
+      <workItem from="1610309623266" duration="4441000" />
     </task>
     <task id="LOCAL-00003" summary="Add maven-shade-plugin to pom">
       <created>1608418628772</created>
@@ -579,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610295921159</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="First Thymeleaf Template added but website not yet working">
+      <created>1610309577561</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1610309577561</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -603,7 +587,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Final Version" />
     <MESSAGE value="Erste Spring Version" />
     <MESSAGE value="Erste Spring Version - Chapter 2/3" />
     <MESSAGE value="Learn about addsign Autowired" />
@@ -628,7 +611,8 @@
     <MESSAGE value="Basic Exception Handling json/xml Format" />
     <MESSAGE value="Changed solution to get server.port property" />
     <MESSAGE value="error on invoice.controller: @PostMapping(&quot;/invoices&quot;) -&gt; missing slash /" />
-    <option name="LAST_COMMIT_MESSAGE" value="error on invoice.controller: @PostMapping(&quot;/invoices&quot;) -&gt; missing slash /" />
+    <MESSAGE value="First Thymeleaf Template added but website not yet working" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Thymeleaf Template added but website not yet working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
