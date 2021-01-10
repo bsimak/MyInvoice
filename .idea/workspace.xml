@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="Basic Exception Handling json/xml Format">
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="error on invoice.controller: @PostMapping(&quot;/invoices&quot;) -&gt; missing slash /">
+      <change afterPath="$PROJECT_DIR$/MyInvoiceSpringMVC-03.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/GlobalControllerExecptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/InvoiceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/InvoiceDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/MyInvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/InvoiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/InvoiceController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,17 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in MyInvoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyInvoice" />
       <option name="PACKAGE_NAME" value="" />
@@ -224,7 +212,8 @@
       <workItem from="1609534739671" duration="916000" />
       <workItem from="1609536125975" duration="8631000" />
       <workItem from="1609603421235" duration="15999000" />
-      <workItem from="1609683898042" duration="11073000" />
+      <workItem from="1609683898042" duration="11735000" />
+      <workItem from="1610203613463" duration="4122000" />
     </task>
     <task id="LOCAL-00001" summary="Finally it is working - Hello World">
       <created>1608413804652</created>
@@ -555,7 +544,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609700970605</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Changed solution to get server.port property">
+      <created>1609702154475</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1609702154475</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Changed solution to get server.port property">
+      <created>1610294875826</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1610294875826</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -579,8 +582,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="irgendwas hatte nicht gestimmt" />
-    <MESSAGE value="User Service added" />
     <MESSAGE value="Final Version" />
     <MESSAGE value="Erste Spring Version" />
     <MESSAGE value="Erste Spring Version - Chapter 2/3" />
@@ -604,7 +605,9 @@
     <MESSAGE value="Update Comments" />
     <MESSAGE value="Validation checks with @NotBlank, @Min, @Max" />
     <MESSAGE value="Basic Exception Handling json/xml Format" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Exception Handling json/xml Format" />
+    <MESSAGE value="Changed solution to get server.port property" />
+    <MESSAGE value="error on invoice.controller: @PostMapping(&quot;/invoices&quot;) -&gt; missing slash /" />
+    <option name="LAST_COMMIT_MESSAGE" value="error on invoice.controller: @PostMapping(&quot;/invoices&quot;) -&gt; missing slash /" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -613,6 +616,11 @@
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/web/InvoiceController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

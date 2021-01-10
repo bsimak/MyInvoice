@@ -52,7 +52,7 @@ public class InvoiceController {
      */
     // Ergebnisse aus dem RequestBody werden als Parameter übergeben
     /*
-    @PostMapping("invoices")
+    @PostMapping("/invoices")
     public Invoice createInvoice(@RequestBody @Valid InvoiceDTO invoiceDTO) {
         return invoiceService.create(invoiceDTO.getUserId(),
                 invoiceDTO.getAmount(), invoiceDTO.getMyHello());
