@@ -3,11 +3,13 @@ package org.example.web;
 import org.example.web.forms.LoginForm;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.validation.Valid;
 import java.util.Date;
 
 @Controller
@@ -27,7 +29,13 @@ public class WebsiteController {
     }
 
     @PostMapping("/login")
-    public String login(@ModelAttribute LoginForm loginForm, Model model) {
+    // BindingResult Parameter must be placed behind loginForm otherwise it won't work
+    // because it usually would get caught by teh GlobalExceptionHandler
+    // Binding Result is a container for validation errors
+    public String login(@ModelAttribute @Valid LoginForm loginForm,BindingResult bindingResult, Model model) {
+        if (bindingResult.hasErrors()){
+            return "login.html";
+        }
         if (loginForm.getUsername().equals(loginForm.getPassword())) {
             return "redirect:/";
         }

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="First website with variables">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/forms/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="First Login Screen">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/testonly.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/WebsiteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/WebsiteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/forms/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/forms/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -231,14 +232,7 @@
       <workItem from="1609603421235" duration="15999000" />
       <workItem from="1609683898042" duration="11735000" />
       <workItem from="1610203613463" duration="11023000" />
-      <workItem from="1610309623266" duration="7038000" />
-    </task>
-    <task id="LOCAL-00004" summary="Add maven-shade-plugin to pom">
-      <created>1608419287391</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1608419287391</updated>
+      <workItem from="1610309623266" duration="10336000" />
     </task>
     <task id="LOCAL-00005" summary="Add maven-shade-plugin to pom">
       <created>1608422356224</created>
@@ -576,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610314492107</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="First Login Screen">
+      <created>1610316931388</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1610316931388</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -600,7 +601,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Erste Spring Version - Chapter 2/3" />
     <MESSAGE value="Learn about addsign Autowired" />
     <MESSAGE value="Using  @PostConstruct &amp;  @PreDestroy" />
     <MESSAGE value="Using Resource and  Properties" />
@@ -625,7 +625,8 @@
     <MESSAGE value="error on invoice.controller: @PostMapping(&quot;/invoices&quot;) -&gt; missing slash /" />
     <MESSAGE value="First Thymeleaf Template added but website not yet working" />
     <MESSAGE value="First website with variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="First website with variables" />
+    <MESSAGE value="First Login Screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Login Screen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

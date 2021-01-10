@@ -1,6 +1,11 @@
 package org.example.web.forms;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
 public class LoginForm {
+    @NotBlank
+    @Size(min = 5, max = 10)
     private String username ="Barbara";
     private String password = "";
 
