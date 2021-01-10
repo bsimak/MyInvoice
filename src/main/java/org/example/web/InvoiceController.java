@@ -25,6 +25,14 @@ public class InvoiceController {
         return invoiceService.findAll();
     }
 
+    // Mit validation Bean in ApplicationLauncher Class
+    @PostMapping("/invoices")
+    public Invoice createInvoice(@RequestParam("user_id") @NotBlank String userId,
+                                 @RequestParam @Min(10) @Max(100) Integer amount,
+                                 @RequestParam ("my_msg") String myMsg) {
+        return invoiceService.create(userId, amount ,myMsg);
+    }
+
     // POST Method
     /* Request Mapping Version
    @RequestMapping(value="/invoices", method = RequestMethod.POST)
@@ -50,11 +58,4 @@ public class InvoiceController {
                 invoiceDTO.getAmount(), invoiceDTO.getMyHello());
     }
     */
-    // Mit validation Bean in ApplicationLauncher Class
-    @PostMapping("invoices")
-    public Invoice createInvoice(@RequestParam("user_id") @NotBlank String userId,
-                                 @RequestParam @Min(10) @Max(100) Integer amount,
-                                 @RequestParam ("my_msg") String myMsg) {
-        return invoiceService.create(userId, amount ,myMsg);
-    }
 }

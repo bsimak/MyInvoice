@@ -34,9 +34,9 @@ public class ApplicationLauncher {
         // Dispatcher Servlet
         WebApplicationContext appCtx = createApplicationContext(tomcatCtx.getServletContext());
         DispatcherServlet dispatcherServlet = new DispatcherServlet(appCtx);
-
-        // Wrapper servlet = Tomcat.addServlet(ctx, "org.example.web.MyInvoiceServlet", new MyInvoiceServlet());
+        
         Wrapper servlet = Tomcat.addServlet(tomcatCtx, "dispatcherServlet", dispatcherServlet);
+
         servlet.setLoadOnStartup(1);
         servlet.addMapping("/*");
 
@@ -51,6 +51,8 @@ public class ApplicationLauncher {
         ctx.register(ApplicationConfiguration.class);
         ctx.setServletContext(servletContext);
         ctx.refresh();
+        // Shutdown properly marked by @PreDestroy Annotation
+        // it is automatically added, when using Spring Boot
         ctx.registerShutdownHook();
         return ctx;
     }
