@@ -39,9 +39,9 @@ public class MyInvoiceServlet extends HttpServlet {
         if (request.getRequestURI().equalsIgnoreCase("/invoices")) {
             String userId = request.getParameter("user_id");
             Integer amount = Integer.valueOf(request.getParameter("amount"));
-            String helloMsg = "Hello, My Dear";
+            String message = "Hello, My Dear";
 
-            Invoice invoice = invoiceService.create(userId, amount, helloMsg);
+            Invoice invoice = invoiceService.create(userId, amount, message);
 
             response.setContentType("application/json; charset=UTF-8");
             String json = new ObjectMapper().writeValueAsString(invoice);

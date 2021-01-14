@@ -14,18 +14,17 @@ public class Invoice {
 
     private Integer amount;
     // ist nur als Test hinzugefügt worden
-    @JsonProperty("my_hello")
-    private String myHello;
+    private String message;
 
     public Invoice(){
     }
 
-    public Invoice(String userId, Integer amount, String pdfUrl,String myHello) {
+    public Invoice(String userId, Integer amount, String pdfUrl,String message) {
         this.id = UUID.randomUUID().toString();
         this.userId = userId;
         this.pdfUrl = pdfUrl;
         this.amount = amount;
-        this.myHello = myHello;
+        this.message = message;
     }
 
     public String getId() {
@@ -56,8 +55,8 @@ public class Invoice {
         this.amount = amount;
     }
 
-    public String getMyHello() { return myHello; }
-    public void setMyHello(String myHello){
-        this.myHello = myHello;
+    public String getMessage() { return message; }
+    public void setMessage(String message){
+        this.message = message;
     }
 }

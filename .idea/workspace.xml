@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="First Login Screen">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/testonly.html" afterDir="false" />
+    <list default="true" id="abe976fc-db72-4b39-b6d8-1398a6913000" name="Default Changelist" comment="Spring MVC lesson finished">
+      <change afterPath="$PROJECT_DIR$/myH2DB.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oldDoc/NoDbInvoiceService" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/WebsiteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/WebsiteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/forms/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/forms/LoginForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/context/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/MyInvoiceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/MyInvoiceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -114,6 +120,7 @@
     <configuration name="ApplicationLauncher" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.ApplicationLauncher" />
       <module name="MyInvoice" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -232,14 +239,9 @@
       <workItem from="1609603421235" duration="15999000" />
       <workItem from="1609683898042" duration="11735000" />
       <workItem from="1610203613463" duration="11023000" />
-      <workItem from="1610309623266" duration="10336000" />
-    </task>
-    <task id="LOCAL-00005" summary="Add maven-shade-plugin to pom">
-      <created>1608422356224</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1608422356224</updated>
+      <workItem from="1610309623266" duration="13793000" />
+      <workItem from="1610653666565" duration="21000" />
+      <workItem from="1610654303428" duration="10719000" />
     </task>
     <task id="LOCAL-00006" summary="Servlet with json Invoice">
       <created>1608478334283</created>
@@ -577,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610316931388</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Spring MVC lesson finished">
+      <created>1610320556228</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1610320556228</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -601,7 +610,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Learn about addsign Autowired" />
     <MESSAGE value="Using  @PostConstruct &amp;  @PreDestroy" />
     <MESSAGE value="Using Resource and  Properties" />
     <MESSAGE value="Add my.hello in application.properties file" />
@@ -626,7 +634,8 @@
     <MESSAGE value="First Thymeleaf Template added but website not yet working" />
     <MESSAGE value="First website with variables" />
     <MESSAGE value="First Login Screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Login Screen" />
+    <MESSAGE value="Spring MVC lesson finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC lesson finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
