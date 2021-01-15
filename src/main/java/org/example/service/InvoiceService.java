@@ -12,7 +12,6 @@ import javax.annotation.PreDestroy;
 import java.sql.PreparedStatement;
 import java.sql.Statement;
 import java.util.List;
-import java.util.UUID;
 
 @Component
 public class InvoiceService {

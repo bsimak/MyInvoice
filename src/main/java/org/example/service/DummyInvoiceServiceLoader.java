@@ -19,7 +19,7 @@ public class DummyInvoiceServiceLoader {
     @PostConstruct
     public void setup() {
         System.out.println("Creating dev Invoices...");
-        invoiceService.create("Sibylle", 50, "Hello, my Dear");
-        invoiceService.create("Barbara", 20, "Hello, my Dear");
+        invoiceService.create("Erika", 300, "Liebe Erika");
+        invoiceService.create("Ulli", 200, "Hi Ulli");
     }
 }
